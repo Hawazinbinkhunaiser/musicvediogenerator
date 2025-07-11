@@ -1,5 +1,5 @@
 import streamlit as st
-from moviepy.editor import *
+from moviepy.editor import AudioFileClip, TextClip, ColorClip, CompositeVideoClip
 from moviepy.video.tools.subtitles import SubtitlesClip
 import tempfile
 import os
